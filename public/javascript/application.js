@@ -30,7 +30,7 @@ $(document).on('change', '#size', function() {
 });
 
 $(document).on('change', 'colour', function() {
-  $("caption").css("color", $(this).val());
+  $("#caption").css("color", $(this).val());
 });
 
 $(document).on('change', '#align', function() {
