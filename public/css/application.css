@@ -13,8 +13,14 @@ header {
   box-shadow: 1px 0 3px rgba(0,0,0,0.3);
 }
 
+#search-results img{
+  border-radius: 50%;
+  border-width: thick;
+  border-radius: red;
+}
+
 #select-image {
-  background-color: rgba(255,255,2555,0.3);
+  background-color: rgba(0,0,0,0.3);
   padding: 10px;
 }
 
@@ -65,13 +71,13 @@ footer div {
 }
 
 #caption {
-  position: absolute;
+  position: relative;
   top: 10px;
   left: 10px;
   font-weight: bold;
   font-family: Helvetica;
   text-shadow: 0 0 5px rgba(0,0,0,0.4);
-  width: 400px;
+  width: 580px;
   font-size: 32px;
   color: red;
   margin: 0;
@@ -83,6 +89,7 @@ footer div {
   min-height: 300px;
   border: 5px dashed red;
   margin: 0 auto;
+  text-align: center;
 }
 
 #workspace img {

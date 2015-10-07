@@ -29,7 +29,7 @@ $(document).on('change', '#size', function() {
   $('#caption').css("font-size",$(this).val() + 'px');
 });
 
-$(document).on('change', 'colour', function() {
+$(document).on('change', '#colour', function() {
   $("#caption").css("color", $(this).val());
 });
 
