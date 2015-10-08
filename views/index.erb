@@ -10,13 +10,14 @@
 </head>
 <body>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <header>
     <h1>Motivational Posters</h1>
   </header>
@@ -62,7 +63,7 @@
       <a href="https://twitter.com/share" class="twitter-share-button" data-text="I built a 'Motivational Posters' page today here at @makersacademy!" data-via="RossxEbi">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
       </script>
-      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count">
+      <div class="fb-like" data-href="https://mighty-waters-8599.herokuapp.com/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
       </div>
     </div>
   </section>

@@ -1,3 +1,9 @@
+$(document).on('keypress','#search-term',function(e){
+  if(e.keyCode == 13){
+    findImagesOnGoogle({keywords: $('#search-term').val(), container: "#search-results"})
+  }
+})
+
 $(document).on('click','#go-search', function(){
   findImagesOnGoogle({keywords: $('#search-term').val(), container: "#search-results"})
 });
