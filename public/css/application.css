@@ -11,12 +11,12 @@ header {
   padding: 15px;
   background-color: rgba(255,255,255,0.7);
   box-shadow: 1px 0 3px rgba(0,0,0,0.3);
+  background-image: url('http://humberrecruitment.co.uk/wp-content/uploads/2015/06/ali.jpg');
 }
 
 #search-results img{
-  border-radius: 50%;
-  border-width: thick;
-  border-radius: red;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 #select-image {
@@ -94,11 +94,4 @@ footer div {
 
 #workspace img {
   width: 600px;
-}
-
-#twitter {
-  position: relative;
-  text-align: center;
-  padding: 10px;
-  align-self: center;
 }
