@@ -67,6 +67,7 @@ footer {
 footer img {
   float: left;
   margin-right: 40px;
+  width: 400px;
 }
 
 footer div {
@@ -97,4 +98,8 @@ footer div {
 
 #workspace img {
   width: 600px;
+}
+
+#branding {
+  margin-right: 47%;
 }

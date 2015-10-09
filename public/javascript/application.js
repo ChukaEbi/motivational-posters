@@ -4,7 +4,6 @@ $(document).on('keypress','#search-term',function(e){
   }
 })
 
-
 $(document).on('click','#go-search', function(){
   findImagesOnGoogle({keywords: $('#search-term').val(), container: "#search-results"})
 });
